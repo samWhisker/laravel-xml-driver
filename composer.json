@@ -1,0 +1,26 @@
+{
+    "name": "samwhisker/laravel-xml-driver",
+    "description": "XML Eloquent style driver",
+    "type": "library",
+    "authors": [
+        {
+            "name": "samWhisker",
+            "email": "sam@koodoocreative.co.uk"
+        }
+    ],
+    "require": {},
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "autoload": {
+        "psr-4": {
+            "SamWhisker\\LaravelXmlDriver\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamWhisker\\LaravelXmlDriver\\LaravelXmlDriverServiceProvider"
+            ]
+        }
+    }
+}
